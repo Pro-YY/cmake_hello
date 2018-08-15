@@ -1,1 +1,0 @@
-/usr/bin/cc  -fPIC   -shared -Wl,-soname,libgreeting.so -o libgreeting.so CMakeFiles/greeting.dir/greeting.c.o 
