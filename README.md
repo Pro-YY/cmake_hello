@@ -1,9 +1,11 @@
-#build with cmake
+# build with cmake
 
 ```
-cd _build
-cmake ..
-make
+# make build directory
+mkdir build
+cd build
+cmake ../src
 cd ..
-make -C _build/
+# make
+make -C build/
 ```
